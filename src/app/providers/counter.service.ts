@@ -6,7 +6,6 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class CounterService {
   input = 0;
-
   btnClickCounter: BehaviorSubject<number> = new BehaviorSubject<number>(0);
 
   constructor() {}

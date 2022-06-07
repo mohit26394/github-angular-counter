@@ -15,7 +15,6 @@ export class BgChangeDirective {
   }
 
   private highlight(color: string) {
-    console.log(this.eleRef.nativeElement.parentNode);
-    this.eleRef.nativeElement.style.background = color;
+    this.eleRef.nativeElement.parentNode.style.background = color;
   }
 }
