@@ -1,0 +1,23 @@
+.app-container {
+  border: 1px solid grey;
+  height: 98vh;
+  width: 98vw;
+}
+
+.app-body-container {
+  display: flex;
+  height: calc(100% - 35vh);
+}
+
+.header {
+  height: 20vh;
+}
+
+.side-nav {
+  width: 30%;
+  border-right: 1px solid grey;
+}
+
+.content {
+  width: 70%;
+}

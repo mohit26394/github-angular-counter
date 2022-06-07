@@ -1,0 +1,7 @@
+<section appBgChange class="content-container">
+  <div class="content-btn-wrapper">
+    <app-button (btnClicked)="onBtnClick()" [count]="count"></app-button>
+    {{ counterService.btnClickCounter | async }}
+    <app-button (btnClicked)="onBtnClick()" [count]="count"></app-button>
+  </div>
+</section>

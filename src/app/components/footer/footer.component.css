@@ -1,0 +1,10 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid grey;
+  height: 12.6vh;
+  width: 98vw;
+  position: absolute;
+  bottom: 1px;
+}
